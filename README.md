@@ -20,6 +20,6 @@ ps：[BILIBILI视频链接](https://www.bilibili.com/video/BV1Q24y1g7oj/?spm_id_
 ## 2 使用方法
 ### 2.1 源代码编写
 如果想改写源代码，可以首先将（pybind11,xtensor,xtl,xtensor-blas,xtensor-python）这几个库下载到lib文件夹中，然后去改写src文件中的内容，编译的话windows平台推荐msvc，创建build文件夹后执行文件夹最外层的cmakelist文件即可。
-### 2.2
+### 2.2 运行该框架的demo
 Pypanda中是已经编译好的动态库以及python接口代码，在test.py中包含了b站视频中出现的3个demo，如果您用python3.9的虚拟环境且在有numpy和pybind11支持的情况下执行test.py应该是可以运行的，这里我只在自己的台式机和笔记本电脑上测试过，如果您的numpy版本不对也可能造成无法运行。
 
