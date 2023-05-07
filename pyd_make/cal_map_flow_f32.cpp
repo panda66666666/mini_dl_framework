@@ -33,5 +33,6 @@ PYBIND11_MODULE(cal_map_flow_float32, m)
         .def("Forward", &CAL_MAP_FLOAT32::Forward)
         .def("Backward", &CAL_MAP_FLOAT32::Backward)
         .def("SetGradZero", &CAL_MAP_FLOAT32::SetGradZero)
+        
         .def("UpdatePara", &CAL_MAP_FLOAT32::UpdatPara);
 }
