@@ -1,5 +1,5 @@
 # 一个非常简单的深度学习框架小功能的实现
-在编写之前没有完整构思到每一块所以最终呈现出来的代码并不美观。同时有一些不必要的代码冗余没有删除，后续如果有时间（机会很少）会改进一下。希望没有给您带来不必要的麻烦！！
+
 
 ps：[BILIBILI视频链接](https://www.bilibili.com/video/BV1Q24y1g7oj/?spm_id_from=333.337.search-card.all.click&vd_source=f817c0e82770e849e62c360c6d27fc4c)
 ## 1.环境要求
